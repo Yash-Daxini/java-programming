@@ -13,7 +13,7 @@ class TeleBill{
             call = 100;
         }
         else if(call >= 150 && call < 200){
-            amount = (call - 150)*1.1 + 50 * 0.6 + 200;
+            amount = (call - 150)*0.5 + 50 * 0.6 + 200;
             call = 150;
         }
         else if(call >= 200){
